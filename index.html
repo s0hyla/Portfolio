@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sohyla Portfolio</title>
+    <link rel="icon" type="image/png" href="image.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Playwrite+BE+WAL:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400&family=Montserrat:wght@100..900&family=Playwrite+BE+WAL:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:opsz,wght@6..96,600&family=Coiny&family=Montserrat:wght@100..900&family=Playwrite+BE+WAL&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>So<img src="./image.png" alt="sora" />hyla</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+      </div>
+    </header>
+    <main>
+      <section id="home" class="home">
+        <div class="content">
+          <h2>Hello,Welcome to my Portfolio.</h2>
+          <p>Discover my work and skills...</p>
+          <div class="image">
+            <img src="./image.png" alt="sora" />
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            I am a software engineer with over a year of experience developing
+            React-based websites, complemented by a strong background in
+            cybersecurity. I am proficient in HTML, CSS, JavaScript, C#, C++,
+            and Python, and have developed various web and security projects. I
+            hold a Bachelor's degree in Cybersecurity and Data Analytics,
+            graduating with a very good grade with honors. My strong
+            problem-solving abilities and commitment to continuous learning
+            enable me to adapt and excel in any environment. I am dedicated to
+            enhancing both my technical and soft skills, ensuring I can
+            effectively contribute to any team.
+          </p>
+          <div class="icons">
+            <a href="https://www.behance.net/sohilaelbably" target="_blank"
+              ><img src="./icons/behance (1).png" alt=""
+            /></a>
+            <a href="https://github.com/s0hyla" target="_blank"
+              ><img src="./icons/github-sign.png" alt=""
+            /></a>
+            <a href="https://x.com/Sohylaezzat" target="_blank">
+              <img src="./icons/twitter (1).png" alt=""
+            /></a>
+            <a href="https://www.linkedin.com/in/sohila-elbably" target="_blank"
+              ><img src="./icons/linkedin.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="project">
+            <a href="https://todo-react-s0hyla.vercel.app/"
+              ><h3>Project 1</h3></a
+            >
+            <p>To do List</p>
+          </div>
+          <div class="project">
+            <a href="https://restaurant-react-app-steel.vercel.app/"
+              ><h3>Project 2</h3></a
+            >
+            <p>Resturant website</p>
+          </div>
+          <div class="project">
+            <a href="https://github.com/s0hyla/malware_analysis_Tool"
+              ><h3>Project 3</h3></a
+            >
+
+            <p>malware analysis tool</p>
+          </div>
+          <div class="project">
+            <a href="https://web-scanner-six.vercel.app/"><h3>Project 4</h3></a>
+            <p>Vulnerabitities Scanner</p>
+          </div>
+          <div class="project">
+            <a href="https://github.com/s0hyla/AND_Gate"><h3>Project 5</h3></a>
+            <p>AND Gate</p>
+          </div>
+          <div class="project">
+            <a href="https://github.com/s0hyla/Calculator"
+              ><h3>Project 6</h3></a
+            >
+
+            <p>Calculator</p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 style="display: inline-block">Contact Me</h2>
+          <form id="contact-form">
+            <label for="name" class="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              maxlength="400"
+            ></textarea>
+            <br />
+            <a href="mailto:sohila.elbably@gmail.com">
+              <button type="submit">Send</button></a
+            >
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
